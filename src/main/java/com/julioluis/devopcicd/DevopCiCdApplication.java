@@ -8,7 +8,7 @@ public class DevopCiCdApplication {
 
     public static void main(String[] args) {
         Object object = null;
-        System.out.println(object.hashCode());
+        System.out.println(customer);
         SpringApplication.run(DevopCiCdApplication.class, args);
     }
 
