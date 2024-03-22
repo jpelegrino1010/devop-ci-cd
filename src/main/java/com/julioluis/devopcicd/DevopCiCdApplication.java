@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DevopCiCdApplication {
 
     public static void main(String[] args) {
+        Object object = null;
+        System.out.println(object.hashCode());
         SpringApplication.run(DevopCiCdApplication.class, args);
     }
 
